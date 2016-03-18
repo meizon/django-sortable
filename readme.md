@@ -1,3 +1,8 @@
+TODO:
+1. Include sort caret (CSS arrow)
+2. Use verbose_name as default
+3. Deploy to new python package or request merge code
+
 #Django Sortable
 
 The objective of django-sortable is to provide a flexible way to handle sorting within a complex Django application. 
