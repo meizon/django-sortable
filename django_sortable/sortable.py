@@ -21,9 +21,9 @@ class Sortable(object):
     
     field_list = []
     for f in fields:
-      if isinstance(f, basestring):
+      if isinstance(f, str):
         field_list.append((f, (f,)))
-      elif isinstance(f[1], basestring):
+      elif isinstance(f[1], str):
         field_list.append((f[0], (f[1],)))
       else:
         field_list.append(f)
